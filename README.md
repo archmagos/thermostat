@@ -7,7 +7,7 @@ Fifth week bootcamp project, learning Javascript.
 
 ## Completion
 
-* 
+*
 
 ## Learning Outcomes
 
@@ -15,7 +15,7 @@ Fifth week bootcamp project, learning Javascript.
 
 ## Technical
 
-Javascript.
+Javascript, Ruby, Sinatra, Postgresql with Jasmine, RSpec & Capybara for testing.
 
 ## Implementation
 
@@ -25,4 +25,4 @@ Javascript.
 
 ## Further Improvements
 
-* 
+*
