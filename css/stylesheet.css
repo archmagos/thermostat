@@ -1,0 +1,54 @@
+body {
+  font-family: arial;
+  font-size: 12px;
+  background-color: #C4C8C3;
+  color: black;
+  /* line-height: 25px; */
+}
+
+div.container {
+  border-radius: 25px;
+  width: 620px;
+  height: 320px;
+  padding: 40px;
+  background-color: white;
+}
+
+div.top {
+  width: 620px;
+  display: inline-block;
+  margin: 0 0 25px 0;
+}
+
+div.display {
+  float: left;
+  width: 450px;
+  height: 250px;
+  background-color: lightblue;
+}
+
+div.temperature_buttons {
+  float: right;
+  background-color: #E7EAE8;
+  height: 250px;
+  margin: 0 0 0 0;
+  width: 130px;
+}
+
+div.bottom {
+  width: 620px;
+  height: 100px;
+  display: inline-block;
+}
+
+div.control_buttons {
+  float: left;
+  width: 380px;
+  background-color: #E7EAE8;
+}
+
+div.thermostat_name {
+  float: right;
+  width: 200px;
+  background-color: #E7EAE8;
+}
