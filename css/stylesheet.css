@@ -1,54 +1,124 @@
 body {
-  font-family: arial;
-  font-size: 12px;
   background-color: #C4C8C3;
   color: black;
+  font-family: arial;
+  font-size: 12px;
+  padding: 75px 0 0 0;
   /* line-height: 25px; */
 }
 
-div.container {
+.container {
+  background-color: white;
   border-radius: 25px;
-  width: 620px;
+  box-shadow: 5px 10px 18px #A6A8A8;
   height: 320px;
   padding: 40px;
-  background-color: white;
+  width: 620px;
 }
 
-div.top {
-  width: 620px;
+.top {
   display: inline-block;
   margin: 0 0 25px 0;
+  width: 620px;
 }
 
-div.display {
-  float: left;
-  width: 450px;
-  height: 250px;
+.display {
   background-color: lightblue;
+  float: left;
+  height: 220px;
+  padding: 30px 0 0 0;
+  width: 450px;
 }
 
-div.temperature_buttons {
+.temperature_readout {
+  color: #61777F;
+  font-family: 'VT323', monospace;
+  font-size: 130px;
+  padding: 20px 0 20px 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+}
+
+.power_display {
+  padding: 5px 0 0 20px;
+}
+
+.power_readout {
+  color: #61777F;
+  float: left;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+}
+
+.temperature_buttons {
   float: right;
-  background-color: #E7EAE8;
-  height: 250px;
+  height: 210px;
   margin: 0 0 0 0;
   width: 130px;
+  padding: 40px 0 0 0;
 }
 
-div.bottom {
-  width: 620px;
-  height: 100px;
+.bottom {
   display: inline-block;
+  height: 100px;
+  width: 620px;
 }
 
-div.control_buttons {
+.temp_button {
+  padding: 15px 0 15px 0;
+}
+
+#up_temperature_button {
+  border: 3px solid #C6C6C6;
+  border-radius: 12px;
+  color: #E66476;
+  font-size: 30px;
+  height: 50px;
+  width: 120px;
+}
+
+#down_temperature_button {
+  border: 3px solid #C6C6C6;
+  border-radius: 12px;
+  color: lightblue;
+  font-size: 30px;
+  height: 50px;
+  width: 120px;
+}
+
+.control_buttons {
   float: left;
+  padding: 0 0 0 10px;
   width: 380px;
-  background-color: #E7EAE8;
 }
 
-div.thermostat_name {
+.control_buttons button{
+    background-color: white;
+    border: 2px solid #C6C6C6;
+    border-radius: 12px;
+    color: #C6C6C6;
+    display: inline-block;
+    font-family: verdana;
+    font-size: 12px;
+    height: 50px;
+    margin: 0 10px 0 10px;
+    width: 100px;
+}
+
+button:focus { outline:0; }
+
+.title {
   float: right;
   width: 200px;
-  background-color: #E7EAE8;
+}
+
+.thermostat_title {
+  color: #E66476;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  font-style: oblique;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
 }

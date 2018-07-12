@@ -10,48 +10,49 @@
   <meta name="author" content="Fred">
 
   <link rel="stylesheet" href="../css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 </head>
 
 <body>
-  <script src="../js/src/Thermostat.js"></script>
 
+  <script src="./jquery.js"></script>
+  <script src="../js/src/Thermostat.js"></script>
+  <script src="../js/src/controller.js"></script>
+
+  <center>
   <div class="container">
     <div class="thermostat">
       <div class="top">
         <div class="display">
           <div class="temperature_display">
-            temperature display
+            <h2 class="temperature_readout"></h2>
           </div>
           <div class="power_display">
-            power display
+            <h3 class="power_readout">
           </div>
         </div>
         <div class="temperature_buttons">
           <div class="temp_button" id="up">
-            <button id="up_temperature_button">Increase Temp</button>
+            <button id="up_temperature_button">▲</button>
           </div>
           <div class="temp_button" id="down">
-            <button id="down_temperature_button">Decrease Temp</button>
+            <button id="down_temperature_button">▼</button>
           </div>
         </div>
       </div>
       <div class="bottom">
         <div class="control_buttons">
-          <div class="control_button" id="reset">
             <button id="reset_temperature_button">Reset Temp</button>
-          </div>
-          <div class="power_button" id="power_on">
-            <button id="power_on_button">Power Saving On</button>
-          </div>
-          <div class="power_button" id="power_off">
-            <button id="power_off_button">Power Saving Off</button>
-          </div>
+            <button id="power_on_button">P.Saving On</button>
+            <button id="power_off_button">P.Saving Off</button>
         </div>
-        <div class="thermostat_name">
-          thermostat name
+        <div class="title">
+          <h1 class="thermostat_title">ThermoStat!</h1>
         </div>
       </div>
     </div>
   </div>
+</center>
 </body>
 </html>
