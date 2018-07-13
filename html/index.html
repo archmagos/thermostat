@@ -5,8 +5,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>My First Thermostat</title>
-  <meta name="description" content="My First Thermostat">
+  <title>ThermoStat!</title>
+  <meta name="description" content="ThermoStat!x§">
   <meta name="author" content="Fred">
 
   <link rel="stylesheet" href="../css/stylesheet.css">
@@ -20,6 +20,12 @@
   <script src="../js/src/Thermostat.js"></script>
   <script src="../js/src/controller.js"></script>
 
+  <script type="text/javascript">
+    window.onerror = function() {
+      alert("Temperature Limit Reached!");
+    };
+  </script>
+
   <center>
   <div class="container">
     <div class="thermostat">
@@ -29,10 +35,11 @@
             <h2 class="temperature_readout"></h2>
           </div>
           <div class="power_display">
-            <h3 class="power_readout">
+            <h3 class="power_readout"></h3>
           </div>
         </div>
         <div class="temperature_buttons">
+            <div class="energy_light"></div>
           <div class="temp_button" id="up">
             <button id="up_temperature_button">▲</button>
           </div>

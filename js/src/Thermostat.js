@@ -39,6 +39,9 @@ Thermostat.prototype.powerSavingOn = function() {
 
 Thermostat.prototype.powerSavingOff = function() {
   this.powerSaving = false;
+  if (this.currentTemperature() > 25) {
+    this.temperature = 25;
+  }
 };
 
 Thermostat.prototype.energyUsage = function() {

@@ -57,7 +57,16 @@ body {
   height: 210px;
   margin: 0 0 0 0;
   width: 130px;
-  padding: 40px 0 0 0;
+  padding: 30px 0 0 0;
+}
+
+.energy_light {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #FEB85E;
+  box-shadow: 0 0 25px #FF9D3B;
+  margin: 0 0 20px 0;
 }
 
 .bottom {
@@ -95,16 +104,16 @@ body {
 }
 
 .control_buttons button{
-    background-color: white;
-    border: 2px solid #C6C6C6;
-    border-radius: 12px;
-    color: #C6C6C6;
-    display: inline-block;
-    font-family: verdana;
-    font-size: 12px;
-    height: 50px;
-    margin: 0 10px 0 10px;
-    width: 100px;
+  background-color: white;
+  border: 2px solid #C6C6C6;
+  border-radius: 12px;
+  color: #C6C6C6;
+  display: inline-block;
+  font-family: verdana;
+  font-size: 12px;
+  height: 50px;
+  margin: 0 10px 0 10px;
+  width: 100px;
 }
 
 button:focus { outline:0; }
