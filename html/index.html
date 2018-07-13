@@ -20,12 +20,6 @@
   <script src="../js/src/Thermostat.js"></script>
   <script src="../js/src/controller.js"></script>
 
-  <script type="text/javascript">
-    window.onerror = function() {
-      alert("Temperature Limit Reached!");
-    };
-  </script>
-
   <center>
   <div class="container">
     <div class="thermostat">
@@ -71,13 +65,13 @@
       </div>
       <div class="weather_menu">
         <div class="dropdown">
-          <select>
-            <option value="" disabled="disabled" selected="selected">Please select a city</option>
-            <option value="1">London, UK</option>
-            <option value="2">Tokyo, Japan</option>
-            <option value="3">Dubai, UAE</option>
-            <option value="4">New York, USA</option>
-            <option value="5">Sydney, Australia</option>
+          <select id="city_select">
+            <option id="London" value="London" disabled="disabled" selected="selected">Please select a city</option>
+            <option id="London" value="London">London, UK</option>
+            <option id="Tokyo" value="Tokyo">Tokyo, Japan</option>
+            <option id="Dubai" value="Dubai">Dubai, UAE</option>
+            <option id="New York" value="New York">New York, USA</option>
+            <option id="Sydney" value="Sydney">Sydney, Australia</option>
           </select>
         </div>
       </div>
