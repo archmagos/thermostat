@@ -1,5 +1,22 @@
 $( document ).ready(function() {
 
+  $.ajax({
+    url: "http://api.openweathermap.org/data/2.5/weather",
+    data: {
+        APPID: "2ec18a0fcd2565ed36b99ed465e203da",
+        q: "London,uk",
+        units: "metric"
+    },
+    type: "GET",
+    dataType : "json",
+    })
+    .done(function( json ) {
+       $( ".weather_readout" ).text( 'Temperature in ' + json.name + ' is ' + json.main.temp + '°C' );
+    })
+    .fail(function( xhr, status, errorThrown ) {
+      alert( "There was a problem loading weather information!" );
+  });
+
     thermostat = new Thermostat();
 
     thermostat.updateTemp = function() {

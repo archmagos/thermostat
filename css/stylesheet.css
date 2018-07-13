@@ -12,6 +12,7 @@ body {
   border-radius: 25px;
   box-shadow: 5px 10px 18px #A6A8A8;
   height: 320px;
+  margin: 0 0 50px 0;
   padding: 40px;
   width: 620px;
 }
@@ -130,4 +131,38 @@ button:focus { outline:0; }
   font-style: oblique;
   -webkit-margin-after: 0;
   -webkit-margin-before: 0;
+}
+
+.weather {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px 18px #A6A8A8;
+  height: 100px;
+  padding: 30px;
+  width: 480px;
+}
+
+.weather_display {
+  background-color: lightblue;
+  color: #61777F;
+  float: left;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  height: 35px;
+  padding: 15px 10px 10px 10px;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  margin: 0 0 12px 0;
+  width: 450px;
+}
+
+.weather_display_title {
+  float: left;
+  color: #7FD4F9;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  font-style: oblique;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  padding: 0 0 0 15px;
 }
