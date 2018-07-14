@@ -1,7 +1,7 @@
 # Makers Academy Week Five - Thermostat
 > 9-13 July 2018
 
-<img align="right" src="./img/thermostat.png" />
+<img align="right" src="./img/thermostat.png" width="375" height="327" />
 Fifth week bootcamp project, building a Thermometer web-app in Javascript. The goal was to build a thermometer that increases/decreases temperature responding to user input, with different conditions according to whether 'power saving mode' is turned on. Connects with OpenWeatherMap API to retrieve and display city weather information.
 
 ## Completion
