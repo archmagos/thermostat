@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
   retrieveWeather = function(city) {
     $.ajax({
-      url: "http://api.openweathermap.org/data/2.5/weather",
+      url: "https://api.openweathermap.org/data/2.5/weather",
       data: {
           APPID: "2ec18a0fcd2565ed36b99ed465e203da",
           q: city || "London",
