@@ -19,10 +19,9 @@ Javascript & jQuery with Jasmine for testing.
 
 ## Implementation
 
-Download repo and open index.html in Chrome or Safari (Firefox currently has some issues displaying margins correctly).
+Download repo and open index.html in browser.
 
 ## Further Improvements
 
 * Integrate with Ruby and Sinatra to implement saving state.
 * Alert message when temperature reaches upper/lower limit.
-* Correct margin issues when displaying on Firefox.

@@ -35,8 +35,13 @@ body {
   font-family: 'VT323', monospace;
   font-size: 130px;
   padding: 20px 0 20px 0;
+  margin: 0;
   -webkit-margin-after: 0;
   -webkit-margin-before: 0;
+}
+
+.temperature_display {
+  line-height: 130px;
 }
 
 .power_display {
@@ -48,6 +53,7 @@ body {
   float: left;
   font-family: 'VT323', monospace;
   font-size: 30px;
+  margin: 0;
   -webkit-margin-after: 0;
   -webkit-margin-before: 0;
 }
@@ -131,6 +137,7 @@ select:focus { outline:0; }
   font-family: 'Lobster', cursive;
   font-size: 40px;
   font-style: oblique;
+  margin: 0;
   -webkit-margin-after: 0;
   -webkit-margin-before: 0;
 }
@@ -169,6 +176,7 @@ select:focus { outline:0; }
   font-family: 'Lobster', cursive;
   font-size: 35px;
   font-style: oblique;
+  margin: 0;
   -webkit-margin-after: 0;
   -webkit-margin-before: 0;
   padding: 0 0 0 15px;
