@@ -1,5 +1,3 @@
-eslint-env jasmine
-
 'use strict';
 
 describe('Thermostat', function () {
@@ -54,8 +52,8 @@ describe('Thermostat', function () {
       expect( function(){ thermostat.upFunction(); }).toThrowError('Maximum temperature reached.');
     });
     it('has a maximum temperature of 32 if power saving is off', function() {
-      thermostat.temperature = 32;
       thermostat.powerSavingOff();
+      thermostat.temperature = 32;
       expect( function(){ thermostat.upFunction(); }).toThrowError('Maximum temperature reached.');
     });
   });
