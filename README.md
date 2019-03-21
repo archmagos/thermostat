@@ -1,19 +1,9 @@
-# Makers Academy Week Five - Thermostat
+# Thermostat!
 > 9-13 July 2018
 
-[Thermostat is now deployed to Heroku](https://archmagos-thermostat.herokuapp.com/).
+[Thermostat! is deployed to Heroku](https://archmagos-thermostat.herokuapp.com/).
 
-Fifth week bootcamp project, building a Thermometer web-app in Javascript. The goal was to build a thermometer that increases/decreases temperature responding to user input, with different conditions according to whether 'power saving mode' is turned on.
-Connects with OpenWeatherMap API to retrieve and display city weather information.
-
-## Completion
-
-* Steps 5/6 complete.
-* All tests passing.
-
-## Learning Outcomes
-
-Really enjoyed learning Javascript this week and applying it to the Thermostat project. Followed a step-by-step TDD process which helped to ensure that features were implemented correctly. It was fun using jQuery to dynamically change page elements, and interacting with external APIs was less painful than I expected. This week's project has helped me develop a process for learning a new language, and I'm keen to develop my understanding of Javascript.
+Thermometer web-app in Javascript that increases/decreases temperature in response to user input, with different conditions according to whether 'power saving mode' is turned on. Connects with the OpenWeatherMap API to retrieve and display city weather information.
 
 ## Technical
 
